@@ -1,0 +1,91 @@
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 750px) {
+  #main {
+    fontsize: 16px;
+  }
+}
+
+body {
+  font-family: courier, arial, helvetica;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: gainsboro;
+  color: black;
+}
+
+#title {
+  background-color: #552583;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  width: 100%;
+  color: #fdb927;
+}
+
+#histitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+section {
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border: 10px solid #552583;
+  border-radius: 5px;
+  outline: 2px dashed #fdb927;
+  outline-offset: -8px;
+  max-width: 750px;
+}
+
+#img-caption {
+  margin-bottom: 40px;
+}
+
+#headline {
+  margin-top: 40px;
+  margin-left: 100px;
+  text-align: start;
+}
+
+.paragraphs {
+  text-align: justify;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 40px;
+  text-indent: 20px;
+}
+
+#ytbvideo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  max-width: 750px;
+  border: 10px solid #552583;
+  border-radius: 5px;
+  outline: 2px dashed #fdb927;
+  outline-offset: -8px;
+}
+
+h4 {
+  margin-top: 50px;
+}
+
+a {
+  color: #552583;
+}
+
+a:visited {
+  color: #74638f;
+}
